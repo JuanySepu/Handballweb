@@ -95,6 +95,20 @@ header .navegador ul li a {
     font-weight: 300;
 }
 
+header .navegador ul li a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: red;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+header .navegador ul li a:hover::after {
+    width: 100%;
+}
+
 nav .bx {
     display: none;
 }
