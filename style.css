@@ -322,6 +322,11 @@ nav .bx {
     column-gap: 2rem;
 }
 
+.partidos__imagenes .contenedor img:hover {
+    transform: scale(1.15);
+    box-shadow: 0px 0px 15px rgba(255, 0, 0, 0.534);
+}
+
 .partidos__imagenes a {
     font-size: 1.5rem;
 }
