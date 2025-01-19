@@ -161,7 +161,11 @@ nav .bx {
     cursor: pointer;
 }
 
-
+.btn:hover {
+    /* letter-spacing: 6px; */
+    border: 1px solid red;
+    background: red;
+}
 
 /* Main__Inicio */
 
